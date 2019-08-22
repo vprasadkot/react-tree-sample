@@ -1,0 +1,33 @@
+h1, p {
+  font-family: Lato;
+}
+button {
+  margin: 0 10px;
+}
+ul {
+  display: block;
+}
+ul, li { 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li ul {
+  margin: 0 15px;
+}
+button {
+  border: none;
+  font-size: 9px;
+  font-weight: bold;
+  padding: 2px;
+  outline:none;
+}
+button::after {
+  content: '>';
+}
+button.open::after {
+  content: 'v';
+}
+ul.selected {
+  font-weight: bolder;
+}
